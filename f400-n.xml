@@ -2,15 +2,15 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <f400>
-            <Filename>ResurrectionRemix-M-v5.7.4-20161217-f400.zip</Filename>
+            <Filename>RR-N-v5.8.1-20170206-f400-Experimental.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-                description="Download ResurrectionRemix builds">https://www.androidfilehost.com/?fid=745425885120694126</RomUrl>
+                description="Download ResurrectionRemix builds">https://www.androidfilehost.com/?fid=745425885120705887</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/marshmallow/CHANGELOG.mkdn</ChangelogUrl>
+                description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/nougat/CHANGELOG.mkdn</ChangelogUrl>
             <OpenGappsUrl
                 id="open_gapps"
                 title="OpenGApps"
