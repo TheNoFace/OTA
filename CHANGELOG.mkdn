@@ -172,3 +172,18 @@
 
  ▼ 05/14/2017
 
+
+ ▪ project external/chromium-webview/
+ ▪ b544e48 Update README
+
+ ▪ project frameworks/base/
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 23be04d msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/ResurrectionOTA/
+
+ ▪ project packages/apps/Settings/
+
