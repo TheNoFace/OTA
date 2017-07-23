@@ -2,8 +2,171 @@
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
+ ▼ 07/22/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 963b2ad Fix custom button icon making touch and animation area smaller [2/3]
+ ▪ 6f90390 Merge pull request #204 from AndropaX/patch-4
+
+ ▪ project packages/apps/DUI/
+ ▪ 6515568 Fix custom button icon making touch and animation area smaller [1/3]
+
+ ▪ project packages/apps/Jelly/
+ ▪ b8270d7 Jelly: Allow to display pages in full screen mode
+
+ ▪ project packages/apps/Settings/
+ ▪ 2353503 Fix custom button icon making touch and animation area smaller [3/3]
+ ▪ 4f8d736 Merge pull request #825 from AndropaX/patch-2
+
+ ▼ 07/21/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 51cc188 DeviceInfoUtils: decentralize processor Regex
+
+ ▪ project packages/apps/Jelly/
+ ▪ 54d8d10 Jelly: Remove unused variable in SearchBarController
+ ▪ 063d6a9 Jelly: Use proper popup background attr
+ ▪ ca27881 Jelly: Add "search in page" feature
+
+ ▪ project packages/apps/Settings/
+ ▪ 5cd394f Add processor model in device info screen (2/2)
+ ▪ 88342d3 Add maintainer for lenovo k6/power (#824)
+
+ ▼ 07/20/2017
+
+
+ ▪ project android/
+ ▪ eedb930 Remove ahbottomnavigation
+
+ ▪ project frameworks/base/
+ ▪ 021e65a DeviceInfoUtils: Expand Processor string #3
+ ▪ a700be4 Fix new Processor regex in Nexus 4
+ ▪ 3aa1c51 BootReceiver: check console-ramoops-0
+ ▪ f27f73e Merge remote-tracking branch 'remotes/rr/nougat' into HEAD
+ ▪ 7e09920 PowerProfile: allow overriding default power profile
+ ▪ e5e8dad Revert "PowerProfile: allow reading from a file instead of resource"
+ ▪ 3008b48 Add processor info in device info screen (1/2)
+
+ ▪ project system/sepolicy/
+ ▪ 34cc176 interfacer: Allow interfacer to find content_service
+ ▪ 72d06e9 Add policy to fix interfacer derp on boot
+ ▪ 458839a sepolicy: Allow system_server to set theme_prop
+ ▪ 86e3f9d sepolicy: add file and domain trans to interfacer
+ ▪ caa8674 Welcome to Theme Interfacer! [2/2]
+ ▪ 3890c0e sepolicy: Redo masquerade rules
+ ▪ 1f43bf4 sepolicy: Fix application of bootanimation
+ ▪ d9cc632 sepolicy: allow masquerade to read and write theme assets
+ ▪ 0a3d0fc sepolicy: rename masquerade domain and allow JobService in system_server
+ ▪ 5ac375f initial policy edits for masquerade to operate rootless
+ ▪ 2965e98 sepolicy: fix themed sounds
+ ▪ 8edd6b3 sepolicy: fix themed boot animation
+ ▪ a03a002 Introduce sepolicy exceptions for theme assets
+ ▪ 13c7a73 OMS7-N: Add service 'overlay' to service_contexts
+ ▪ 39875f9 Add policy to SELinux to allow ViPER4Android in enforcing mode
+ ▪ 1820ef3 RR: 7.1 fix
+ ▪ 40ebd92 sepolicy: Allow platform_app to run su_exec() (1/2)
+ ▪ 6606f8c sepolicy: Allow system_server to run su_exec() (1/2)
+ ▪ 1f5ad77 sepolicy: Allow system_app to run su_exec()
+ ▪ f73b438 sepolicy: Allow remount /system
+
+ ▪ project vendor/cm/
+ ▪ 715986b Merge remote-tracking branch 'remotes/rr/nougat' into HEAD
+ ▪ bc96cad repopick: Add 'reset' option
+ ▪ 5a5e439 kernel: Add savedefconfig target
+ ▪ 4438599 qcom: Enable TARGET_USES_QCOM_MM_AUDIO
+ ▪ 5b71695 repopick: don't bail on drafts
+ ▪ 82a5e5a prebuilt: update Magisk Manager 5.1.1 (#96)
+
+ ▼ 07/19/2017
+
+
+ ▪ project hardware/qcom/fm/
+ ▪ 165ef42 FM: Use some sane colors
+
+ ▪ project vendor/cm/
+ ▪ ac577f3 Update prebuilts to latest versions (#95)
+
+ ▪ project vendor/lge/
+ ▪ 4543622 g6: Add iris module
+ ▪ f43adfb g6: Add missing blob for camera
+
+ ▼ 07/18/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 8320284 SEEMP: Adding auth framework for outgoing SMS messages.
+ ▪ 7490b95 SEEMP: Adding auth framework for outgoing SMS messages.
+
+ ▪ project vendor/lge/
+ ▪ 3d65d39 h870: Update adreno firmware
+ ▪ 9b57061 h870: Use correct bluetooth firmware
+ ▪ 8fad791 Add h870 Vendor Files
+ ▪ f81fc55 msm8996: Regenerate makefiles and add us997 and h870 to build guard
+
+ ▼ 07/17/2017
+
+
+ ▪ project frameworks/base/
+ ▪ bdfc59e ScreenCap : Add jpeg support
+ ▪ df6580a Configurable Keyguard alpha and Keyguard Bouncer alpha [1/2] inspired by the BrightLockscreen xposed module: https://github.com/Generalbrus/BrightLockscreen
+ ▪ 33fb4dd RecentsView: Hiding membar, memtext and fab on drag start.
+ ▪ b66c326 Connectivity: Fix format arguments
+ ▪ 9fcae18 SystemUI: Fix Notification Background Color Issue
+ ▪ 73d5dc4 Fix keyguard prompt reason showing with fingerprint reboot enabled
+
+ ▪ project packages/apps/Gallery2/
+ ▪ d9f1451 Gallery: Fix potential crash
+ ▪ 8af515d Gallery2: Switch to navigationbar from support libs
+
+ ▪ project packages/apps/Settings/
+ ▪ 2fdd40f MiscSettings: Remove SElinux Switch & System App remover if no Magisk
+ ▪ 61a20bc Fix up Suspend actions fragment summary string value
+ ▪ 09611a0 Settings:Configurable Keyguard & bouncer alpha [2/2]
+
+ ▪ project vendor/cm/
+ ▪ e4a1100 Add Proper Magisk 13.2 zip
+ ▪ a860ae3 Delete this corrupt zip
+
+ ▪ project vendor/lge/
+ ▪ 2e72101 Initial us997 blobs
+
+ ▼ 07/16/2017
+
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/PackageInstaller/
+
+ ▪ project packages/apps/ResurrectionOTA/
+
+ ▪ project packages/apps/Settings/
+ ▪ 3dec931 Bring back some physical keyboard settings
+ ▪ 582837b Add maintainer for samsung galaxy s5(k3gxx) (#823)
+ ▪ 9d7e6ca Add maintainer Yu Yreka Black(garlic) (#820)
+
+ ▪ project packages/services/OmniJaws/
+
+ ▪ project packages/services/ThemeInterfacer/
+ ▪ 0fded63 JobService: Use a ContentObserver to check for force authorisation of packages
+
+ ▪ project vendor/cm/
+ ▪ fb83d97 Fix magisk 13.2 Location
+
  ▼ 07/15/2017
 
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ f8fcd59 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 3005091 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+ ▪ project hardware/qcom/media-caf/msm8996/
+ ▪ 0273a64 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
 
  ▪ project packages/apps/Jelly/
  ▪ 4d40bf7 Jelly: Remove unneeded parameter type in addResult
@@ -12,114 +175,6 @@
  ▪ c3794c5 Hide Sheet Menu after clicking on an entry
  ▪ 4e7e82e Jelly: Query an already ordered favorite list
 
- ▪ project packages/apps/Settings/
- ▪ 089a928 Official support for Moto E3 Power(taido_row) (#818)
- ▪ 93a2c68 Official support for Moto E3 Power(taido_row) (#819)
-
- ▼ 07/14/2017
-
-
- ▪ project packages/apps/Settings/
- ▪ 809857c Add maintainer for Xiaomi RedMi 3 (#817)
-
- ▪ project packages/apps/Snap/
- ▪ 5c51d47 Revert some permissions related changes
-
- ▼ 07/13/2017
-
-
- ▪ project packages/apps/Jelly/
- ▪ 6934a68 Jelly: use Google as default all the things
-
- ▪ project packages/apps/Snap/
- ▪ 0dbf891 Add overlay for restarting camera preview for additional cameras
-
- ▼ 07/12/2017
-
-
- ▪ project bootable/recovery-twrp/
- ▪ afa6165 Merge remote-tracking branch 'upstream/android-7.1' into android-7.1
-
- ▪ project frameworks/base/
- ▪ b0a68f3 PowerManagerService:Allow Device to set default value for hw keys light up[1/2]
-
- ▪ project packages/apps/Settings/
- ▪ e79d383 Settings:Allow Device to set default value for hw keys light up[2/2]
-
  ▪ project vendor/cm/
- ▪ 3fa356a Magisk,Manager: update to v13.1 stable
-
- ▼ 07/11/2017
-
-
- ▪ project frameworks/base/
- ▪ f1c724e Base: make button backlight light up user configurable [1/2]
- ▪ 2a7f84f Fix a crashed when clicking list item and button meanwhile
- ▪ c2d809b Camera2: Fix Error Callback if buffer lost.
- ▪ fb62603 [ams]set the resultTo to null started by a finishing activity
- ▪ 5b8f52d remove the lock-use for prunePrintService in case blocking main thread
- ▪ 0246757 Move screen on message to new thread
- ▪ 6d688cd FlashlightTile: Retry opening camera later on if it failed before
- ▪ 6bcd55e hwui: Remove deprecated compiler flag
- ▪ 6d2489c SystemUI: move time tick to bg handler
-
- ▪ project packages/apps/DUI/
- ▪ 5198175 DUI:Smartbar longpress delay:make it more configurable [1/2]
-
- ▪ project packages/apps/Settings/
- ▪ fbdd17e Settings: make hw keys light up user configurable [2/2]
- ▪ 8ffe089 Smartbar longpress delay:make it more configurable [2/2]
-
- ▼ 07/10/2017
-
-
- ▪ project bionic/
- ▪ d207f78 Merge tag 'android-7.1.2_r24' into cm-14.1
-
- ▪ project frameworks/base/
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/Settings/
-
- ▪ project packages/services/OmniJaws/
-
- ▼ 07/09/2017
-
-
- ▪ project android/
- ▪ 61a497f manifest: don't track themeengine related repos
- ▪ dafbf6a rr: don't track MusicFX
-
- ▪ project build/
- ▪ 75e05d5 core: Makefile: Correct package signature disable
- ▪ 72cd3b1 core: assume non-release recoveries to skip signature check
- ▪ b101356 core: use 0 compression when creating the target_files package
- ▪ 912e52a releasetools: silence binary info printed by blockimgdiff
- ▪ 189d8fd Create 0 compression ratio jar files
-
- ▪ project frameworks/base/
- ▪ 79e9a27 aapt: enforce 0 compression
- ▪ 2ca4ef8 aapt: allow opting out of uncompressed aapt
- ▪ f6ef9b2 aapt: default to 0 compression
- ▪ 6c9941d PowerManagerService: add a config to light up buttons only when pressed
-
- ▪ project packages/apps/AudioFX/
-
- ▪ project packages/apps/Gallery2/
-
- ▪ project packages/apps/Jelly/
-
- ▪ project packages/apps/SetupWizard/
-
- ▪ project packages/apps/Terminal/
-
- ▪ project packages/providers/WeatherProvider/
-
- ▪ project vendor/cm/
- ▪ fbb261c sensitive_pn: Enter full list of Indian MCC codes
- ▪ a736075 sensitive_pn: Enter full list of GB MCC codes
- ▪ 8388b24 sensitive_pn: Enter full list of US MCC codes
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ ac623bd Update Magisk Binary to v13.2 and Magisk Manager to v5.0.6 (#93)
 
