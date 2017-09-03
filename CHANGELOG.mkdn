@@ -2,138 +2,156 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 08/26/2017
+ ▼ 09/02/2017
 
 
- ▪ project frameworks/base/
- ▪ 756f3e0 Allow to ignore presentation indicator of outgoing calls [1/3]
- ▪ 89fc8fd Use SystemClock.elapsedRealtime() to calc TTFF
- ▪ d1cb955 Tweak Privacy Guard dialog layout
- ▪ 20d80eb PowerManager: Allow to distinguish different keypresses
- ▪ 8b63de6 Add @hide annotation to the privacy guard ops set
- ▪ 4193207 Change visibility of the Privacy Guard ops set
- ▪ 6ab7b90 Camera: ignore torch status update for aux or compsite camera
- ▪ be1d6ba base: audioservice: Set BT_SCO status
+ ▪ project packages/apps/SetupWizard/
+ ▪ 77ef790 SetupWizard: Remove Themes related code
 
- ▪ project frameworks/native/
- ▪ 9cb6681 Merge remote-tracking branch 'remotes/laos/cm-14.1' into HEAD
-
- ▪ project kernel/lge/g3/
- ▪ 84b4dba sctp: validate chunk len before actually using it
- ▪ 42bdfe5 Kconfig: msm: disable ultrasound driver
- ▪ 0a8bc02 drivers: qcom: ultrasound: Lock async driver calls
- ▪ d57a89c ASoC: msm: qdsp6v2: DAP: Add check to validate param length
- ▪ ba24a01 ASoC: msm: qdsp6v2: DAP: Add check to validate param length
- ▪ 6ada8025 msm: dma: remove dma_test from defconfig
- ▪ 5f342f7 msm : dma_test: Initialize newly allocated memory
-
- ▪ project packages/apps/Eleven/
- ▪ 943d43e Eleven: Fix restoring user settings
-
- ▪ project packages/apps/UnifiedEmail/
- ▪ 2dd00df Email: Fix led notification settings
-
- ▪ project packages/services/Telephony/
- ▪ 6e6fe97 Allow to ignore presentation indicator of outgoing calls [3/3]
-
- ▼ 08/25/2017
+ ▼ 09/01/2017
 
 
- ▪ project frameworks/opt/telephony/
- ▪ b231815 Allow to ignore presentation indicator of outgoing calls [2/3]
+ ▪ project packages/resources/devicesettings/
+ ▪ ff0aa81 Add strings for devices' custom gesture handlers
 
- ▪ project kernel/lge/g3/
- ▪ 6ad2491 msm: ipa: fix potential race condition ioctls
- ▪ 741c846 g3: Enable config for b/29119870
- ▪ 05addb0 FROMLIST: security,perf: Allow further restriction of perf_event_open
- ▪ 0aa10c6 BACKPORT: perf tools: Document the perf sysctls
- ▪ 71acaf0 USB: digi_acceleport: do sanity checking for the number of ports
- ▪ df621c6 USB: mct_u232: add sanity checking in probe
- ▪ f608bb5 USB: iowarrior: fix oops with malicious USB descriptors
- ▪ 5138ec4 Input: gtco - fix crash on detecting device without endpoints
- ▪ 4513073 Input: powermate - fix oops with malicious USB descriptors
- ▪ c287ca4 Input: ati_remote2 - fix crashes on detecting device with invalid descriptor
- ▪ fe2fb68 ARM: perf: reject groups spanning multiple hardware PMUs
- ▪ 3418a6e ASoC: q6lsm: Add check for integer overflow
- ▪ ae6bb04 ALSA: compress: fix an integer overflow check
- ▪ 441aede unix: correctly track in-flight fds in sending process user_struct
- ▪ 7c3610c unix: properly account for FDs passed over unix sockets
-
- ▪ project vendor/lge/
- ▪ 50a3b8c v4xx-common: Update libwvm to _ZN7android16MediaBufferGroupC1Ej
- ▪ 3b6f969 v4xx-common: Hexedit libqc-opt to support _56
-
- ▼ 08/24/2017
+ ▼ 08/31/2017
 
 
  ▪ project packages/apps/Settings/
- ▪ 3c8b4d4 Responsible arrangement for the Seed device.  (#851)
+ ▪ 84d2690 Asus Zenfone 3 (Z012D) Maintainer (#859)
+ ▪ 67faee0 Piccolo Maintainer (#858)
+ ▪ 7b502c0 D851 Maintainer (#855)
 
- ▼ 08/22/2017
+ ▼ 08/30/2017
 
-
- ▪ project hardware/qcom/audio-caf/msm8998/
- ▪ eba183e Merge tag 'LA.UM.5.7.r1-10500-8x98.0' into cm-14.1-caf-8998
-
- ▪ project kernel/lge/g3/
- ▪ ec3c396 ALSA: compress_core: integer overflow in snd_compr_allocate_buffer()
 
  ▪ project packages/apps/Jelly/
- ▪ 2a6aa75 Fix NPE.
+ ▪ 5f4c6b0 Jelly: Add elevation effect to searchBar
 
- ▼ 08/21/2017
+ ▪ project packages/apps/Settings/
+ ▪ 41bd796 Update maintainer for Galaxy Note 3 Qcom (#854)
+
+ ▼ 08/29/2017
+
+
+ ▪ project vendor/lge/
+ ▪ 0ed5c8f v4xx: Move thermal blobs to devices
+
+ ▼ 08/28/2017
 
 
  ▪ project frameworks/base/
+
+ ▪ project kernel/lge/g3/
+ ▪ 0cfaf1b g3: camera: Fix the size of the i2c register array
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Jelly/
+ ▪ 8e71ae9 Jelly: Remove the SwipeRefreshLayout
 
  ▪ project packages/apps/OmniSwitch/
 
  ▪ project packages/apps/Settings/
- ▪ 14513f5 Update s7 edge maintainer
- ▪ 3bb44bb Transfer maintainership of Galaxy S7 series to schwabe93
 
- ▼ 08/20/2017
+ ▪ project vendor/lge/
+ ▪ 17985d5 g2-common: Use widevine from kipper TOS125B
+
+ ▼ 08/27/2017
 
 
- ▪ project build/
- ▪ 6a081e1 envsetup: stop jack server once build completed
-
- ▪ project hardware/ril-caf/
- ▪ d8290dd ril: Allow targets to disable Clang
-
- ▪ project packages/apps/AudioFX/
-
- ▪ project packages/apps/CMParts/
- ▪ f763660 CMParts: Add strings for DCI-P3 color profile
-
- ▪ project packages/apps/Eleven/
-
- ▪ project packages/apps/FlipFlap/
-
- ▪ project packages/apps/Jelly/
-
- ▪ project packages/apps/SetupWizard/
+ ▪ project kernel/lge/g3/
+ ▪ c27d054 ALSA: timer: Fix race between read and ioctl
+ ▪ 2989a65a ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT
+ ▪ d1af61d fs/exec.c: account for argv/envp pointers
+ ▪ 507ebc2 Allow stack to grow up to address space limit
+ ▪ 63e5143 mm: larger stack guard gap, between vmas
+ ▪ 99ac249 xfrm: policy: check policy direction value
+ ▪ 7aeabcc BACKPORT: f2fs: sanity check checkpoint segno and blkoff
+ ▪ e42dd30 UPSTREAM: f2fs: sanity check segment count
+ ▪ 7622b53 UPSTREAM: timerfd: Protect the might cancel mechanism proper
+ ▪ 031d857 USB: f_qc_rndis: Prevent use-after-free for _rndis_qc
+ ▪ 3f0cc15 f_qc_rndis: Check config or cdev is NULL in before accessing
+ ▪ d32ff6d ipv6: fix out of bound writes in __ip6_append_data()
+ ▪ a463b05 ipv6/dccp: do not inherit ipv6_mc_list from parent
+ ▪ 2deefee sctp: do not inherit ipv6_{mc|ac|fl}_list from parent
+ ▪ 53bbe9f ipv6: Check ip6_find_1stfragopt() return value properly.
+ ▪ a448f14 ipv6: Prevent overrun when parsing v6 header options
+ ▪ 7664adb ashmem: remove cache maintenance support
+ ▪ 34ccb44 msm: kgsl: Fix kgsl memory allocation and free race condition
+ ▪ bb68357 msm: camera: don't cut to 8bits for validating enum variable
+ ▪ 6466386 ASoC: msm: qdsp6v2: check audio client pointer before accessing
+ ▪ 7abf5e5 ASoC: msm: qdsp6v2: validate audio client in callback
+ ▪ f46472b msm: camera: sensor: Add boundary check for cci master
+ ▪ b626760 ASoC: msm: qdsp6v2: set pointer to NULL after free.
+ ▪ 145d3a3 BACKPORT: msm: camera: Avoid exposing kernel addresses
+ ▪ 6b20474 msm: vidc: Protect debug_buffer access in core_info_read with lock.
+ ▪ 9c46990 qseecom: add mutex around qseecom_set_client_mem_param
+ ▪ e810e17 msm: IPA: add the check on intf query
+ ▪ 1701774 crypto: ahash - Fix EINPROGRESS notification callback
+ ▪ 19d0a91 crypto: hash - Simplify the ahash_finup implementation
+ ▪ c763826 crypto: hash - Pull out the functions to save/restore request
+ ▪ 6c7e725 crypto: hash - Fix the pointer voodoo in unaligned ahash
+ ▪ 3ca3c08 crypto: ahash - Fully restore ahash request before completing
+ ▪ 1bd9679 mm/mempolicy.c: fix error handling in set_mempolicy and mbind.
+ ▪ 149c2d7 KEYS: fix keyctl_set_reqkey_keyring() to not leak thread keyrings
+ ▪ 7c25f80 msm: mdss: Fix invalid dma attachment during fb shutdown
+ ▪ c309050 net/packet: fix overflow in check for tp_reserve
+ ▪ 042a90d net/packet: fix overflow in check for tp_frame_nr
+ ▪ c332456 scsi: sg: check length passed to SG_NEXT_CMD_LEN
+ ▪ 9f36a14 sg: relax 16 byte cdb restriction
+ ▪ f222afd block: add blk_rq_set_block_pc()
+ ▪ 43c5011 xfrm_user: validate XFRM_MSG_NEWAE incoming ESN size harder
+ ▪ c9a089f xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window
+ ▪ c1d2769 KEYS: Change the name of the dead type to ".dead" to prevent user access
+ ▪ 10e1a26 platform: msm: spmi: Fix possible race condition in debugfs
+ ▪ 80f8bd7 sctp: deny peeloff operation on asocs with threads sleeping on it
+ ▪ f9f62d7 irda: Fix lockdep annotations in hashbin_delete().
+ ▪ d69bd1b packet: fix races in fanout_add()
+ ▪ 7fb74f5 net/llc: avoid BUG_ON() in skb_orphan()
+ ▪ 054fccc tcp: avoid infinite loop in tcp_splice_read()
+ ▪ b6d532d dccp: fix freeing skb too early for IPV6_RECVPKTINFO
+ ▪ bf5ed5c perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race
+ ▪ 1a221133 sctp: avoid BUG_ON on sctp_wait_for_sndbuf
+ ▪ 73d7fa2 tcp: do not lock listener to process SYN packets
+ ▪ f8a66a2 ipv4: keep skb->dst around in presence of IP options
+ ▪ 372ce96 time: Remove CONFIG_TIMER_STATS
+ ▪ 8c9d57f ipc/shm: Fix shmat mmap nil-page protection
+ ▪ 4f8bd3c ipc: add COMPAT_SHMLBA support
+ ▪ e8de18f tty: n_hdlc: get rid of racy n_hdlc.tbuf
+ ▪ 04db51a TTY: n_hdlc, fix lockdep false positive
+ ▪ 594ceb3 selinux: fix off-by-one in setprocattr
+ ▪ c70dd88 msm: crypto: set CLR_CNTXT bit for crypto operations
+ ▪ 6304d9b input: touchscreen: gt9xx: fix memory corruption in Goodix driver
+ ▪ dca7ec9 soc: qcom: scm: add check to avoid buffer overflow
+ ▪ 23e0989 qseecom: check buffer size when loading firmware images
+ ▪ eee493b qseecom: improve input validatation for qseecom_send_service_cmd
+ ▪ 441b3a2 ASoC: soc: prevent risk of buffer overflow
+ ▪ d8b29ee ASoC: msm: qdsp6v2: return error when copy from userspace fails
+ ▪ 97961b4 ASoC: msm: qdsp6v2: return error when copy from userspace fails
+ ▪ 0f1bea7 ASoC: msm: Fix to avoid crash during voip call
+ ▪ bc8a9d9 ASoC: msm: qdsp6v2: Add range checking in msm_dai_q6_set_channel_map
+ ▪ ec65008 ASoC: msm: q6dspv2: use correct variable type to store ION buff size
+ ▪ 29429b3 drivers: soc: add mutex to prevent response being processed twice
+ ▪ 5218761 defconfig: msm: Disable CONFIG_CP_ACCESS
+ ▪ 357d744 qcdev: Check the digest length during the SHA operations
+ ▪ 2a26219 BACKPORT: f2fs: sanity check log_blocks_per_seg
+ ▪ baf73d8 msm: ipa: Fix for missing int overflow check in the refcount library
+ ▪ 6179a2d Revert "proc: smaps: Allow smaps access for CAP_SYS_RESOURCE"
+ ▪ 4de40bd sysrq: FIQ and sysrq default deauthorized
+ ▪ d9ba9d2 ASoC: msm8x10-wcd: prevent out of bounds access
+ ▪ e54ff91 trace: resolve stack corruption due to string copy
+ ▪ f926658 ASoC: msm: qdsp6v2: Fix out-of-bounds access in put functions
+ ▪ b34cd3f crypto: msm: check integer overflow on total data len in qcedev.c
+ ▪ 6957d05 ANDROID: ion: Protect kref from userspace manipulation
+ ▪ 70b7d8b ion: blacklist %p kptr_restrict
+ ▪ a69af45 ion: Fix use after free during ION_IOC_ALLOC
+ ▪ f7b90ac msm: crypto: fix issues on digest buf and copy_from_user in qcedev.c
+ ▪ faa07ca input: misc: fix heap overflow issue in hbtp_input.c
+ ▪ 58935b1 ANDROID: ion: check for kref overflow
+ ▪ 51bc4ba net: ipc_router: Register services only on client port
+ ▪ 2bc2da5 drivers: soc: add size checks and update log messages
 
  ▪ project packages/apps/Snap/
-
- ▪ project packages/apps/Terminal/
-
- ▪ project packages/apps/Trebuchet/
-
- ▪ project packages/apps/UnifiedEmail/
-
- ▪ project packages/resources/devicesettings/
-
- ▼ 08/19/2017
-
-
- ▪ project device/qcom/sepolicy/
- ▪ c631819 Use set_prop() macro for property sets
-
- ▪ project frameworks/native/
- ▪ afbd1c1 InputDispatcher: On keypress, deliver keycode to pokeUserActivity
- ▪ 766d692 PowerManager.h: Define USER_ACTIVITY_FLAG values
-
- ▪ project packages/apps/Settings/
- ▪ 4dccd0d Changing Galaxy s7 edge Maintainer (#846)
+ ▪ 2cf2582 Snap: fix ArrayIndexOutOfBoundsException on setUpCameraOutputs
 
