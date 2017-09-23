@@ -2,156 +2,270 @@
  ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
 
 
- ▼ 09/02/2017
-
-
- ▪ project packages/apps/SetupWizard/
- ▪ 77ef790 SetupWizard: Remove Themes related code
-
- ▼ 09/01/2017
-
-
- ▪ project packages/resources/devicesettings/
- ▪ ff0aa81 Add strings for devices' custom gesture handlers
-
- ▼ 08/31/2017
-
-
- ▪ project packages/apps/Settings/
- ▪ 84d2690 Asus Zenfone 3 (Z012D) Maintainer (#859)
- ▪ 67faee0 Piccolo Maintainer (#858)
- ▪ 7b502c0 D851 Maintainer (#855)
-
- ▼ 08/30/2017
-
-
- ▪ project packages/apps/Jelly/
- ▪ 5f4c6b0 Jelly: Add elevation effect to searchBar
-
- ▪ project packages/apps/Settings/
- ▪ 41bd796 Update maintainer for Galaxy Note 3 Qcom (#854)
-
- ▼ 08/29/2017
-
-
- ▪ project vendor/lge/
- ▪ 0ed5c8f v4xx: Move thermal blobs to devices
-
- ▼ 08/28/2017
+ ▼ 09/21/2017
 
 
  ▪ project frameworks/base/
 
- ▪ project kernel/lge/g3/
- ▪ 0cfaf1b g3: camera: Fix the size of the i2c register array
+ ▪ project packages/apps/FlipFlap/
+ ▪ 484ba97 FlipFlap: Specify a qualified user for start/stop service
+
+ ▪ project packages/apps/Settings/
+
+ ▼ 09/20/2017
+
+
+ ▪ project frameworks/native/
+ ▪ 47d7223 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into HEAD
+
+ ▪ project hardware/cyanogen/
+ ▪ da0e259 livedisplay: Add msm8998 and sdm660 as SDM targets
+
+ ▪ project packages/apps/FlipFlap/
+ ▪ d27b7eb FlipFlap: Allow to set dot ratio
+
+ ▪ project system/extras/su/
+ ▪ 11730a5 correct delivering process return code to caller
+
+ ▼ 09/19/2017
+
+
+ ▪ project frameworks/av/
+ ▪ 74ff75e Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into HEAD
+
+ ▪ project hardware/qcom/fm/
+
+ ▪ project packages/apps/AudioFX/
+
+ ▪ project packages/apps/Bluetooth/
+
+ ▪ project packages/apps/Calendar/
+
+ ▪ project packages/apps/Camera2/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
+ ▪ project packages/apps/CertInstaller/
+
+ ▪ project packages/apps/Eleven/
+
+ ▪ project packages/apps/Email/
+
+ ▪ project packages/apps/EmergencyInfo/
+
+ ▪ project packages/apps/Exchange/
+
+ ▪ project packages/apps/FMRadio/
+
+ ▪ project packages/apps/FlipFlap/
+
+ ▪ project packages/apps/Gallery2/
+
+ ▪ project packages/apps/Jelly/
+
+ ▪ project packages/apps/ManagedProvisioning/
+
+ ▪ project packages/apps/Nfc/
+
+ ▪ project packages/apps/Recorder/
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+
+ ▪ project packages/apps/Stk/
+
+ ▪ project packages/apps/Tag/
+
+ ▪ project packages/apps/Terminal/
+
+ ▪ project packages/apps/Trebuchet/
+
+ ▪ project packages/apps/TvSettings/
+
+ ▪ project packages/apps/UnifiedEmail/
+
+ ▪ project packages/inputmethods/LatinIME/
+
+ ▪ project packages/providers/CalendarProvider/
+
+ ▪ project packages/providers/ContactsProvider/
+
+ ▪ project packages/providers/DataUsageProvider/
+
+ ▪ project packages/providers/DownloadProvider/
+
+ ▪ project packages/providers/MediaProvider/
+
+ ▪ project packages/providers/TelephonyProvider/
+
+ ▪ project packages/resources/devicesettings/
+
+ ▪ project packages/screensavers/Basic/
+
+ ▪ project packages/screensavers/PhotoTable/
+
+ ▪ project packages/wallpapers/LivePicker/
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+
+ ▼ 09/18/2017
+
+
+ ▪ project frameworks/av/
+ ▪ f80e21a audioflinger: Use offloaded effects in case of PCM offload
+
+ ▪ project packages/apps/Eleven/
+ ▪ 49b8b9c Eleven: Create one cursor per background task
+
+ ▪ project packages/apps/Settings/
+ ▪ efbb78f Add moderator tags to about settings
+
+ ▼ 09/17/2017
+
+
+ ▪ project android/
+ ▪ f0c3b1f manifest: switch to our forks of several repos
+
+ ▪ project build/
+ ▪ f6958ef Updating Security String to 2017-09-05 Bug:63846344
+
+ ▪ project external/skia/
+ ▪ 878b9da Defend against ICOs with large BMPs embedded DO NOT MERGE
+
+ ▪ project external/sonivox/
+ ▪ 188ae17 Fix compiler warnings in sonivox and enable -Werror.
+
+ ▪ project frameworks/av/
+ ▪ eeff3f6 Merge remote-tracking branch 'lineage/cm-14.1' into HEAD
+
+ ▪ project frameworks/base/
+ ▪ bb68d19 Back-port fixes for b/62196835
+ ▪ cbce7ff Don't disable the GPS prematurely
+ ▪ 8503dcf PrivateStorageInfo: Exclude primary physical volume total space
+ ▪ fe5307e Keyguard: Change fingerprint listening behavior
 
  ▪ project packages/apps/DUI/
 
- ▪ project packages/apps/Jelly/
- ▪ 8e71ae9 Jelly: Remove the SwipeRefreshLayout
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/Messaging/
+ ▪ e0708ed Merge remote-tracking branch 'lineage/cm-14.1' into HEAD
 
  ▪ project packages/apps/OmniSwitch/
 
  ▪ project packages/apps/Settings/
+ ▪ 6d05ff9 Back-port ag/2491664
+ ▪ 2214a57 AppOpsDetails: Generate correct summary when changing list prefs
+ ▪ ac086f6 Settings: Allow devices to provide remote gesture preferences
+ ▪ 1b1f6ea Settings: Fix internal storage summary for non-emulated storage devices
+ ▪ 4776440 Settings: Always show Privacy Guard permissions
+ ▪ 02a6349 AppOps: Switch to an HashMap
+ ▪ a3bbfda Settings: Add a shortcut icon for carrier selection
+ ▪ cb1ab8b AppOps: Redesign
+ ▪ 3a0e238 Revert "Settings[Wifi]: fix the input invalid length for WEP encryption."
 
- ▪ project vendor/lge/
- ▪ 17985d5 g2-common: Use widevine from kipper TOS125B
+ ▼ 09/16/2017
 
- ▼ 08/27/2017
 
+ ▪ project external/libavc/
+ ▪ 2170933 Decoder: Fixed allocation of pv_map_ref_idx_to_poc_buf.
+ ▪ 871e2ff Decoder: Fixed overflow in refernce list creation.
+ ▪ 73ff61b Initialize DPB structures to valid values.
+ ▪ 1a4a25a Added error check for output buffer size.
+
+ ▪ project external/libhevc/
+ ▪ 2f28765 Limit boundary PU sizes in case of errors
+ ▪ 3008a9a Fix array size for hrd parameters
+ ▪ d2b7822 Check number of output buffers and sizes
+ ▪ 8e3fe3b Return error for invalid crop parameters
+
+ ▪ project external/libvpx/
+ ▪ 50bde27 DO NOT MERGE libvpx: Cherry-pick 8b4c315 from upstream
+
+ ▪ project external/sonivox/
+ ▪ afc7e48 Fix interpolator
+
+ ▪ project external/sqlite/
+ ▪ f55bb7e DO NOT MERGE - fix FTS3 column pointer handling
+
+ ▪ project external/tremolo/
+ ▪ 0000b2b Use heap instead of alloca in res012.c
+
+ ▪ project frameworks/av/
+ ▪ be42248 MPEG4Source: fix fragmented read.
+ ▪ ac561ef stagefright: fix crash due to bad timestamp index
+ ▪ 47f7228 stagefright: check aac_frame_length to prevent infinite loop
+ ▪ 708ca76 MediaPlayerService: fix access of mPlayer in client
+ ▪ 20a8bdc audio effects: filter reserved effect commands
+ ▪ 1f8cd83 MPEG4Extractor: ensure returned status is checked.
+ ▪ 09ebf66 DO NOT MERGE Check frame handle validity before freeing buffer.
+ ▪ ae74db2 Change MPEG2 reinit Error Handling
+ ▪ 6e05adf Track: Check buffer size of static tracks
+ ▪ e0b8295 MPEG4Extractor: check size for yrrc box
+ ▪ 7a84ae8 AudioFlinger: Fix memory allocation for client-less tracks
+ ▪ b1c91bc Notify Errors Appropriately from SoftMPEG2
+ ▪ 6dff427 EffectBundle: Check value size for get preset name
+ ▪ 3fcd8ac Fix TOCTOU problem in libstagefright_soft_aacenc
+
+ ▪ project frameworks/minikin/
+ ▪ 440e10a Reject unsorted cmap entries. DO NOT MERGE
+
+ ▪ project hardware/broadcom/wlan/
+ ▪ 71b070f net: wireless: bcmdhd: update bcm4354/4356 FW (7.35.101.8)
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 7a797d4 Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ 0bf8b30 Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio-caf/msm8960/
+ ▪ 01e8f3b Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio-caf/msm8974/
+ ▪ f5a8e83 Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 7da7e5e Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 53c7f74 Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio-caf/msm8998/
+ ▪ c736bfe Equalizer: Check value size for get preset name
+
+ ▪ project hardware/qcom/audio/default/
+ ▪ 3f7e702 Equalizer: Check value size for get preset name
 
  ▪ project kernel/lge/g3/
- ▪ c27d054 ALSA: timer: Fix race between read and ioctl
- ▪ 2989a65a ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT
- ▪ d1af61d fs/exec.c: account for argv/envp pointers
- ▪ 507ebc2 Allow stack to grow up to address space limit
- ▪ 63e5143 mm: larger stack guard gap, between vmas
- ▪ 99ac249 xfrm: policy: check policy direction value
- ▪ 7aeabcc BACKPORT: f2fs: sanity check checkpoint segno and blkoff
- ▪ e42dd30 UPSTREAM: f2fs: sanity check segment count
- ▪ 7622b53 UPSTREAM: timerfd: Protect the might cancel mechanism proper
- ▪ 031d857 USB: f_qc_rndis: Prevent use-after-free for _rndis_qc
- ▪ 3f0cc15 f_qc_rndis: Check config or cdev is NULL in before accessing
- ▪ d32ff6d ipv6: fix out of bound writes in __ip6_append_data()
- ▪ a463b05 ipv6/dccp: do not inherit ipv6_mc_list from parent
- ▪ 2deefee sctp: do not inherit ipv6_{mc|ac|fl}_list from parent
- ▪ 53bbe9f ipv6: Check ip6_find_1stfragopt() return value properly.
- ▪ a448f14 ipv6: Prevent overrun when parsing v6 header options
- ▪ 7664adb ashmem: remove cache maintenance support
- ▪ 34ccb44 msm: kgsl: Fix kgsl memory allocation and free race condition
- ▪ bb68357 msm: camera: don't cut to 8bits for validating enum variable
- ▪ 6466386 ASoC: msm: qdsp6v2: check audio client pointer before accessing
- ▪ 7abf5e5 ASoC: msm: qdsp6v2: validate audio client in callback
- ▪ f46472b msm: camera: sensor: Add boundary check for cci master
- ▪ b626760 ASoC: msm: qdsp6v2: set pointer to NULL after free.
- ▪ 145d3a3 BACKPORT: msm: camera: Avoid exposing kernel addresses
- ▪ 6b20474 msm: vidc: Protect debug_buffer access in core_info_read with lock.
- ▪ 9c46990 qseecom: add mutex around qseecom_set_client_mem_param
- ▪ e810e17 msm: IPA: add the check on intf query
- ▪ 1701774 crypto: ahash - Fix EINPROGRESS notification callback
- ▪ 19d0a91 crypto: hash - Simplify the ahash_finup implementation
- ▪ c763826 crypto: hash - Pull out the functions to save/restore request
- ▪ 6c7e725 crypto: hash - Fix the pointer voodoo in unaligned ahash
- ▪ 3ca3c08 crypto: ahash - Fully restore ahash request before completing
- ▪ 1bd9679 mm/mempolicy.c: fix error handling in set_mempolicy and mbind.
- ▪ 149c2d7 KEYS: fix keyctl_set_reqkey_keyring() to not leak thread keyrings
- ▪ 7c25f80 msm: mdss: Fix invalid dma attachment during fb shutdown
- ▪ c309050 net/packet: fix overflow in check for tp_reserve
- ▪ 042a90d net/packet: fix overflow in check for tp_frame_nr
- ▪ c332456 scsi: sg: check length passed to SG_NEXT_CMD_LEN
- ▪ 9f36a14 sg: relax 16 byte cdb restriction
- ▪ f222afd block: add blk_rq_set_block_pc()
- ▪ 43c5011 xfrm_user: validate XFRM_MSG_NEWAE incoming ESN size harder
- ▪ c9a089f xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window
- ▪ c1d2769 KEYS: Change the name of the dead type to ".dead" to prevent user access
- ▪ 10e1a26 platform: msm: spmi: Fix possible race condition in debugfs
- ▪ 80f8bd7 sctp: deny peeloff operation on asocs with threads sleeping on it
- ▪ f9f62d7 irda: Fix lockdep annotations in hashbin_delete().
- ▪ d69bd1b packet: fix races in fanout_add()
- ▪ 7fb74f5 net/llc: avoid BUG_ON() in skb_orphan()
- ▪ 054fccc tcp: avoid infinite loop in tcp_splice_read()
- ▪ b6d532d dccp: fix freeing skb too early for IPV6_RECVPKTINFO
- ▪ bf5ed5c perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race
- ▪ 1a221133 sctp: avoid BUG_ON on sctp_wait_for_sndbuf
- ▪ 73d7fa2 tcp: do not lock listener to process SYN packets
- ▪ f8a66a2 ipv4: keep skb->dst around in presence of IP options
- ▪ 372ce96 time: Remove CONFIG_TIMER_STATS
- ▪ 8c9d57f ipc/shm: Fix shmat mmap nil-page protection
- ▪ 4f8bd3c ipc: add COMPAT_SHMLBA support
- ▪ e8de18f tty: n_hdlc: get rid of racy n_hdlc.tbuf
- ▪ 04db51a TTY: n_hdlc, fix lockdep false positive
- ▪ 594ceb3 selinux: fix off-by-one in setprocattr
- ▪ c70dd88 msm: crypto: set CLR_CNTXT bit for crypto operations
- ▪ 6304d9b input: touchscreen: gt9xx: fix memory corruption in Goodix driver
- ▪ dca7ec9 soc: qcom: scm: add check to avoid buffer overflow
- ▪ 23e0989 qseecom: check buffer size when loading firmware images
- ▪ eee493b qseecom: improve input validatation for qseecom_send_service_cmd
- ▪ 441b3a2 ASoC: soc: prevent risk of buffer overflow
- ▪ d8b29ee ASoC: msm: qdsp6v2: return error when copy from userspace fails
- ▪ 97961b4 ASoC: msm: qdsp6v2: return error when copy from userspace fails
- ▪ 0f1bea7 ASoC: msm: Fix to avoid crash during voip call
- ▪ bc8a9d9 ASoC: msm: qdsp6v2: Add range checking in msm_dai_q6_set_channel_map
- ▪ ec65008 ASoC: msm: q6dspv2: use correct variable type to store ION buff size
- ▪ 29429b3 drivers: soc: add mutex to prevent response being processed twice
- ▪ 5218761 defconfig: msm: Disable CONFIG_CP_ACCESS
- ▪ 357d744 qcdev: Check the digest length during the SHA operations
- ▪ 2a26219 BACKPORT: f2fs: sanity check log_blocks_per_seg
- ▪ baf73d8 msm: ipa: Fix for missing int overflow check in the refcount library
- ▪ 6179a2d Revert "proc: smaps: Allow smaps access for CAP_SYS_RESOURCE"
- ▪ 4de40bd sysrq: FIQ and sysrq default deauthorized
- ▪ d9ba9d2 ASoC: msm8x10-wcd: prevent out of bounds access
- ▪ e54ff91 trace: resolve stack corruption due to string copy
- ▪ f926658 ASoC: msm: qdsp6v2: Fix out-of-bounds access in put functions
- ▪ b34cd3f crypto: msm: check integer overflow on total data len in qcedev.c
- ▪ 6957d05 ANDROID: ion: Protect kref from userspace manipulation
- ▪ 70b7d8b ion: blacklist %p kptr_restrict
- ▪ a69af45 ion: Fix use after free during ION_IOC_ALLOC
- ▪ f7b90ac msm: crypto: fix issues on digest buf and copy_from_user in qcedev.c
- ▪ faa07ca input: misc: fix heap overflow issue in hbtp_input.c
- ▪ 58935b1 ANDROID: ion: check for kref overflow
- ▪ 51bc4ba net: ipc_router: Register services only on client port
- ▪ 2bc2da5 drivers: soc: add size checks and update log messages
+ ▪ e3b13ea Bluetooth: Properly check L2CAP config option output buffer length
 
- ▪ project packages/apps/Snap/
- ▪ 2cf2582 Snap: fix ArrayIndexOutOfBoundsException on setUpCameraOutputs
+ ▪ project packages/apps/Messaging/
+ ▪ 87f81d9 37742976 - Catch bad gifs
+
+ ▪ project packages/apps/Nfc/
+ ▪ f20aedf Add READ_EXTERNAL_STORAGE for file based Uri while beaming.
+
+ ▼ 09/15/2017
+
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 3f7743b AudioFX: use vector drawables
+ ▪ b94e30b AudioFX: set theme accent to white
+ ▪ 00d3381 AudioFX: match control switches color with fragment background
+ ▪ f5d78ad AudioFX: Add Reverb toggle
+ ▪ 9fe5a3a AudioFX: Use default material toggle
+ ▪ 9662067 AudioFX: Apply effects independently of the output flags
+
+ ▪ project system/bt/
+ ▪ 215d434 Add missing extension length check while parsing BNEP control packets
+ ▪ a61aaf1 Free p_pending_data from tBNEP_CONN to avoid potential memory leaks
+ ▪ 922d50b Add a missing check for PAN buffer size before copying data
+ ▪ c6f7f86 Add missing packet length checks while parsing BNEP control packets
+ ▪ 7e30b79 Add missing continuation offset check for SDP continuation requests
+ ▪ 0700e5b Disable PAN Reverse Tethering when connection originated by the Remote
+ ▪ 8825957 Allocate buffers of the right size when BT_HDR is included
 
