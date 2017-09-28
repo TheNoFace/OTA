@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <f400>
-            <Filename>RR-N-v5.8.4-20170922-f400-Weekly.zip</Filename>
+            <Filename>RR-N-v5.8.5-20170927-f400-Final.zip</Filename>
             <RomUrl
                 id="rom"
                 title="ROM"
-                description="Download ResurrectionRemix builds">https://www.androidfilehost.com/?fid=961840155545597998</RomUrl>
+                description="Download ResurrectionRemix builds">https://www.androidfilehost.com/?fid=962021903579480787</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
@@ -15,6 +15,10 @@
                 id="open_gapps"
                 title="OpenGApps"
                 description="Download latest OpenGApps">http://opengapps.org</OpenGappsUrl>
+            <MagiskUrl
+                id="magisk"
+                title="Magisk"
+                description="Root your device with Magisk for rootless build">https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445</MagiskUrl>
            </f400>
     </Stable>
 </SlimOTA>
