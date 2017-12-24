@@ -1,84 +1,152 @@
 
- ▼ Resurrection Remix Nougat Ver 5.8.4 Changelog
+ ▼ Resurrection Remix Nougat Ver 5.8.5 Changelog
 
 
- ▼ 10/27/2017
+ ▼ 12/23/2017
 
 
- ▪ project frameworks/base/
- ▪ 1b55f84 Toast: Fix toast layout for RTL (#210)
+ ▪ project packages/apps/Snap/
+ ▪ c89f3ae Snap: add QReader to module switch
+ ▪ f0e61e5 QuickReader: initial commit
 
- ▪ project vendor/cm/
- ▪ 59c90dc Update MagiskManager to 5.4.0 (#100)
-
- ▼ 10/26/2017
+ ▼ 12/21/2017
 
 
- ▪ project frameworks/base/
+ ▪ project hardware/cyanogen/
+ ▪ f66b300 cmhw: Remove duplicate class
 
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/PhoneCommon/
- ▪ 9788a56 Squashed support for multilanguage T9 dialer (2/2)
-
- ▪ project packages/apps/Settings/
-
- ▪ project packages/services/OmniJaws/
-
- ▼ 10/25/2017
+ ▼ 12/19/2017
 
 
- ▪ project packages/apps/SetupWizard/
- ▪ aba4f6f WifiSetup: If an ethernet connection is active, skip wifi setup
+ ▪ project hardware/cyanogen/
+ ▪ f05c023 cmhw: Update picture adjustment class with proper comments
 
- ▼ 10/24/2017
+ ▼ 12/18/2017
 
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 8a61c77 AudioFX: fix NPE at onPrepareOptionsMenu
 
  ▪ project packages/apps/SetupWizard/
- ▪ 356dcde [Fugu] Fix bluetooth setup loop
- ▪ e7dce25 Revert "The bluetooth pairing page cannot be exited, disable it for now."
+ ▪ e0605c0 Disable SetupWraith, if GMS not present
 
- ▼ 10/22/2017
+ ▼ 12/17/2017
 
 
  ▪ project hardware/qcom/fm/
 
  ▪ project packages/apps/AudioFX/
 
+ ▪ project packages/apps/Bluetooth/
+
  ▪ project packages/apps/Calendar/
 
- ▪ project packages/apps/Dialer/
- ▪ 692c0ef Merge pull request #3 from CyberWalkMaN/nougat
+ ▪ project packages/apps/Camera2/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
+ ▪ project packages/apps/CertInstaller/
+
+ ▪ project packages/apps/Eleven/
+
+ ▪ project packages/apps/Email/
+
+ ▪ project packages/apps/EmergencyInfo/
+
+ ▪ project packages/apps/Exchange/
+
+ ▪ project packages/apps/FMRadio/
+
+ ▪ project packages/apps/FlipFlap/
 
  ▪ project packages/apps/Gallery2/
 
+ ▪ project packages/apps/HTMLViewer/
+
  ▪ project packages/apps/Jelly/
+
+ ▪ project packages/apps/KeyChain/
+
+ ▪ project packages/apps/ManagedProvisioning/
+
+ ▪ project packages/apps/Nfc/
+
+ ▪ project packages/apps/Profiles/
+
+ ▪ project packages/apps/Recorder/
+
+ ▪ project packages/apps/SafetyRegulatoryInfo/
 
  ▪ project packages/apps/SetupWizard/
 
  ▪ project packages/apps/Snap/
 
+ ▪ project packages/apps/Stk/
+
+ ▪ project packages/apps/Tag/
+
+ ▪ project packages/apps/Terminal/
+
+ ▪ project packages/apps/Trebuchet/
+
+ ▪ project packages/apps/TvSettings/
+
+ ▪ project packages/apps/UnifiedEmail/
+
+ ▪ project packages/apps/WallpaperPicker/
+
+ ▪ project packages/inputmethods/LatinIME/
+
+ ▪ project packages/providers/BookmarkProvider/
+
+ ▪ project packages/providers/CalendarProvider/
+
+ ▪ project packages/providers/CallLogProvider/
+
+ ▪ project packages/providers/ContactsProvider/
+
+ ▪ project packages/providers/DataUsageProvider/
+
+ ▪ project packages/providers/DownloadProvider/
+
+ ▪ project packages/providers/MediaProvider/
+
+ ▪ project packages/providers/TelephonyProvider/
+
+ ▪ project packages/providers/UserDictionaryProvider/
+
+ ▪ project packages/providers/WeatherProvider/
+
  ▪ project packages/resources/devicesettings/
 
- ▼ 10/21/2017
+ ▪ project packages/screensavers/Basic/
+
+ ▪ project packages/screensavers/PhotoTable/
+
+ ▪ project packages/services/CMAudioService/
+
+ ▪ project packages/services/WeatherService/
+
+ ▪ project packages/wallpapers/LivePicker/
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+
+ ▼ 12/16/2017
 
 
- ▪ project hardware/qcom/bootctrl/
- ▪ 462212d Add msm8953 to the filter
+ ▪ project frameworks/base/
+
+ ▪ project packages/apps/DUI/
 
  ▪ project packages/apps/Dialer/
- ▪ 2514f37 Squashed support for multilanguage T9 dialer (1/2)
- ▪ 04a303b Dialer: Provide upgrade path for removed lookup providers
- ▪ d133d0b Dialer: Fix compilation warnings
- ▪ 4044ee5 Dialer: Move padding from layout to spinner
- ▪ 69cc1dc BUGBASH-612: do not send phone numbers to non-ssl sites for reverse/forward/people lookups
 
- ▼ 10/20/2017
+ ▪ project packages/apps/OmniSwitch/
 
+ ▪ project packages/apps/ResurrectionOTA/
 
- ▪ project system/sepolicy/
- ▪ 4cfa94e sepolicy: Allow exfat and ntfs access for sdcard
+ ▪ project packages/apps/ResurrectionStats/
 
- ▪ project vendor/lge/
- ▪ c1df3de m216: import LG K10 vendor blobs
+ ▪ project packages/apps/Settings/
 
